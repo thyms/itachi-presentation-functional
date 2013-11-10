@@ -1,8 +1,8 @@
-package eva.spec
+package itachi.spec
 
-import eva.page.StatusPage
-import eva.path.PathFixture
-import eva.path.PathPresentation
+import itachi.page.StatusPage
+import itachi.path.PathFixture
+import itachi.path.PathPresentation
 
 class StatusPageSpec extends BaseSpecification {
 

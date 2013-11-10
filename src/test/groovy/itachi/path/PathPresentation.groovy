@@ -1,6 +1,6 @@
-package eva.path
+package itachi.path
 
-import eva.spec.BaseSpecification
+import itachi.spec.BaseSpecification
 
 enum PathPresentation {
   BASE(BaseSpecification.config.presentation.baseContext),

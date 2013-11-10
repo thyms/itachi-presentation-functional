@@ -1,14 +1,14 @@
-package eva.page
+package itachi.page
 
-import eva.page.module.TableModule
-import eva.path.PathPresentation
+import itachi.page.module.TableModule
+import itachi.path.PathPresentation
 
 class StatusPage extends BasePage {
   static url = PathPresentation.STATUS
 
   static at = {
-    title == "Eva Presentation Admin"
-    header.text() == "Eva Presentation Status"
+    title == "itachi presentation admin"
+    header.text() == "itachi presentation status"
   }
 
   static content = {

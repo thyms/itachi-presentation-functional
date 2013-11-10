@@ -25,7 +25,7 @@ environments {
   }
 
   functional01 {
-    baseUrl = "http://eva-presentation-functional01.herokuapp.com"
+    baseUrl = "http://itachi-presentation-functional01.herokuapp.com"
     driver = driverRemote
   }
 }

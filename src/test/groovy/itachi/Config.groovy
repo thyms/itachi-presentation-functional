@@ -1,4 +1,4 @@
-package eva
+package itachi
 
 presentation {
   baseUrl = "http://localhost:5000"
@@ -12,11 +12,11 @@ stubulator {
 environments {
   functional01 {
     presentation {
-      baseUrl = "http://eva-presentation-functional01.herokuapp.com/"
+      baseUrl = "http://itachi-presentation-functional01.herokuapp.com/"
       baseContext = ""
     }
     stubulator  {
-      baseUrl = "http://eva-presentation-stubulator01.herokuapp.com/"
+      baseUrl = "http://itachi-presentation-stubulator01.herokuapp.com/"
       baseContext = ""
     }
   }

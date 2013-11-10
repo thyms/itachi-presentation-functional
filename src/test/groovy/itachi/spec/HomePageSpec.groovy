@@ -1,7 +1,7 @@
-package eva.spec
+package itachi.spec
 
-import eva.page.HomePage
-import eva.path.PathFixture
+import itachi.page.HomePage
+import itachi.path.PathFixture
 
 class HomePageSpec extends BaseSpecification {
 

@@ -1,4 +1,4 @@
-package eva.spec
+package itachi.spec
 
 import geb.spock.GebReportingSpec
 import groovyx.net.http.RESTClient
@@ -13,9 +13,9 @@ class BaseSpecification extends GebReportingSpec {
   }
 
   private static URL getConfigFileUrl() {
-    File file = new File('./src/test/groovy/eva/Config.groovy')
+    File file = new File('./src/test/groovy/itachi/Config.groovy')
     if (!file.exists()) { // This check is done for tests run on IDE
-      file = new File('./presentation-functional/src/test/groovy/eva/Config.groovy')
+      file = new File('./presentation-functional/src/test/groovy/itachi/Config.groovy')
     }
 
     return file.toURI().toURL()

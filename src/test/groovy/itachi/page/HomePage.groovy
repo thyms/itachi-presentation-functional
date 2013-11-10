@@ -1,11 +1,11 @@
-package eva.page
+package itachi.page
 
-import eva.path.PathPresentation
+import itachi.path.PathPresentation
 
 class HomePage extends BasePage {
 
   static url = PathPresentation.BASE
-  static at = { title == "Welcome to Eva Presentation" }
+  static at = { title == "Welcome to itachi presentation" }
 
   static content = {
     items { $('.item') }
