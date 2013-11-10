@@ -1,7 +1,8 @@
-package itachi.spec
+package itachi.spec.rendering
 
 import itachi.page.HomePage
 import itachi.path.PathFixture
+import itachi.spec.BaseSpecification
 
 class HomePageSpec extends BaseSpecification {
 
@@ -10,9 +11,10 @@ class HomePageSpec extends BaseSpecification {
       presentation.get(path: PathFixture.RESET)
 
     when:
-      to HomePage
+      toAt HomePage
 
     then:
-      at HomePage
+      locationField.displayed
+      locationField.@placeholder == 'Enter your town/postcode'
   }
 }

@@ -8,6 +8,6 @@ class HomePage extends BasePage {
   static at = { title == "Welcome to itachi presentation" }
 
   static content = {
-    items { $('.item') }
+    locationField { $('.location') }
   }
 }
