@@ -10,13 +10,13 @@ stubulator {
 }
 
 environments {
-  functional01 {
+  func01 {
     presentation {
-      baseUrl = "http://itachi-presentation-functional01.herokuapp.com/"
+      baseUrl = "http://itachi-presentation-func01.herokuapp.com/"
       baseContext = ""
     }
     stubulator  {
-      baseUrl = "http://itachi-presentation-stubulator01.herokuapp.com/"
+      baseUrl = "http://itachi-presentation-stub01.herokuapp.com/"
       baseContext = ""
     }
   }

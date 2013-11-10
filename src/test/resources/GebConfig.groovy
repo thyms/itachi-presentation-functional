@@ -24,8 +24,8 @@ environments {
     driver = driverRemote
   }
 
-  functional01 {
-    baseUrl = "http://itachi-presentation-functional01.herokuapp.com"
+  func01 {
+    baseUrl = "http://itachi-presentation-func01.herokuapp.com"
     driver = driverRemote
   }
 }
